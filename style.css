@@ -27,7 +27,7 @@
 	left: 100vw;
 	height: 70vh;
 	width: 6vw;
-	background:radial-gradient(lightgreen 50%, green);
+	background:radial-gradient(rgb(160, 145, 228) 50%, rgb(11, 0, 165));
 	border: 5px solid black;
 }
 .message {
@@ -64,6 +64,20 @@
 	color: gold;
 	font-weight: bold;
 }
+
+.developer-Name {
+	position: fixed;
+	z-index: 10;
+	height: 10vh;
+	font-size: 3vh;
+	font-weight: 100;
+	color: rgb(0, 0, 0);
+	top: 0;
+	right: 0;
+	margin: 10px;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
 @media only screen and (max-width: 1080px) {
     .message{
 		font-size: 50px;
@@ -71,6 +85,9 @@
 		white-space: nowrap;
 	}
 	.score{
+		font-size: 8vh;
+	}
+	.developer-Name {
 		font-size: 8vh;
 	}
 	.bird{
